@@ -2,8 +2,8 @@
 - name: This is an ansible example showing how to uninstall a package
   hosts: localhost
   tasks:
-    - name: Uninstall the snake game to improve dev productivity
+    - name: Uninstall the moon buggy game to improve dev productivity
       become: yes
       apt:
-        name: nsnake
+        name: moon-buggy
         state: absent

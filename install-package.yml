@@ -2,7 +2,7 @@
 - name: This is an ansible example showing how to install a package
   hosts: localhost
   tasks:
-    - name: Install the snake game to improve dev morale
+    - name: Install the moon buggy game to improve dev morale
       become: yes
       apt:
-        name: nsnake
+        name: moon-buggy
